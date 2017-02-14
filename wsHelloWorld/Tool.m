@@ -11,6 +11,6 @@
 @implementation Tool
 
 + (void)sayHello{
-    NSLog(@"hello world");
+    NSLog(@"hello");
 }
 @end
