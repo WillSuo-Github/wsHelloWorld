@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5418833E1E52D094004C5ACA /* wsHelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 5418833C1E52D094004C5ACA /* wsHelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		541883461E52D09E004C5ACA /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 541883441E52D09E004C5ACA /* Tool.m */; };
+		541883471E52D09E004C5ACA /* Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 541883451E52D09E004C5ACA /* Tool.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		541883391E52D094004C5ACA /* wsHelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wsHelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5418833C1E52D094004C5ACA /* wsHelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wsHelloWorld.h; sourceTree = "<group>"; };
 		5418833D1E52D094004C5ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541883441E52D09E004C5ACA /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		541883451E52D09E004C5ACA /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				5418833C1E52D094004C5ACA /* wsHelloWorld.h */,
+				541883441E52D09E004C5ACA /* Tool.m */,
+				541883451E52D09E004C5ACA /* Tool.h */,
 				5418833D1E52D094004C5ACA /* Info.plist */,
 			);
 			path = wsHelloWorld;
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541883471E52D09E004C5ACA /* Tool.h in Headers */,
 				5418833E1E52D094004C5ACA /* wsHelloWorld.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541883461E52D09E004C5ACA /* Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
