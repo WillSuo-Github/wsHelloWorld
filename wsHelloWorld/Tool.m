@@ -12,6 +12,6 @@
 
 + (void)sayHello{
     NSLog(@"hello");
-    //
+    //fafdsf
 }
 @end
